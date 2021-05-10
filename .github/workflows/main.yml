@@ -37,6 +37,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ bootcampanunadire.surge.sh --token ${{secrets.SURGETOKEN}}
+        run: surge https://github.com/AnushahNadir/demo2 bootcampanunadire.surge.sh --token ${{secrets.SURGETOKEN}}
         
       -
